@@ -34,7 +34,7 @@ const elec_Schema = new Schema({
 
   category: {
     type: String,
-    requied: true,
+    required: true,
   },
 
   author: {

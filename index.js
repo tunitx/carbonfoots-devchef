@@ -38,7 +38,7 @@ const GoogleStrategy = require("passport-google-oauth20").Strategy;
 
 // * CONFIGURING THE MONGODB.
 mongoose
-  .connect("mongodb://localhost:27017/carbonFoots")
+  .connect("mongodb+srv://imta819:cmSZUUlzwgGzL8FM@carbonfoots.ck6wsil.mongodb.net/?retryWrites=true&w=majority")
   .then(() => {
     console.log("Calculating CO2.");
   })
@@ -51,7 +51,7 @@ mongoose
 // creating a collection for sessions with help of mongoSessionStore
 const sessionStore = mongoSessionStore.create({
   collectionName: "sessions",
-  mongoUrl: "mongodb://localhost:27017/carbonFoots",
+  mongoUrl: "mongodb+srv://imta819:cmSZUUlzwgGzL8FM@carbonfoots.ck6wsil.mongodb.net/?retryWrites=true&w=majority",
 });
 
 // creating session configration object
