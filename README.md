@@ -20,6 +20,3 @@ Below are the steps you are required to follow in order to run carbonFoots on yo
                   You may get your own API key to fill here by signing to the CLIMATEIQ API or just move to the this page as give below:
                   https://app.climatiq.io/projects/359541193493709401/admin/keys
 # BOOM! and you are all set to use and customize carbonFoots.
-=======
-# mintmartx
->>>>>>> origin/main
