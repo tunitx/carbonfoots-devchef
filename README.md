@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # carbonFoots
 Carbon Footprint Counter, to calculate your daily carbon emission.
 # Customize carbonFoots according to your will!
